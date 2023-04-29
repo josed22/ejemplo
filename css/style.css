@@ -1,0 +1,158 @@
+body{
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tittle{
+    font-size: 33px;
+    text-align: center;
+    color:rgb(6, 6, 88)
+}
+.subtittle{
+    font-size: 27px;
+    text-align: center;
+}
+.imagentitulo{
+    display: block;
+    margin-left: auto;
+    height: 300px;
+    width: 1100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
+.palabras{
+    font-size: 30px;
+    color:rgb(6, 6, 88)
+}
+.texto1{
+    font-size: 23px;
+    text-align:justify;
+    word-spacing: 1px;
+}
+.bloque1{
+    background-color: rgb(6, 6, 88);
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 550px;
+}
+
+.paginas{
+    list-style: none;
+            padding: 0;
+            background: rgb(6, 6, 88);
+            font-size: 20px;
+            width: 100%;
+        
+            margin-right: 0.4%;
+            margin-left: 0.4%;
+        }
+        
+        .paginas li a {
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+            display: block;
+        }
+        
+        .paginas li {
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .paginas li a:hover {
+            background: rgb(6, 6, 88);
+    }
+
+
+
+section{
+    display: flex;
+    width: 1200px;
+    height:500px;
+}
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+   opacity: 1;
+   filter: contrast(120%);
+}
+.video{
+    text-align: center;
+}
+
+
+.tabla{
+    color: rgb(5, 31, 61);
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.cuestionario{
+    text-align: center;
+    background-color:rgb(6, 6, 88);
+    height: 650px;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+
+.tomado{
+    text-align: right;
+color: #1b122b7d;
+}
+.img2{
+
+  float: right;  
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.img3{
+
+    float: left;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text1{
+padding-top: 8px;
+padding-bottom: 8px;
+    float: left;  
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 950px;
+    height: 200px;
+    background-color:rgb(6, 6, 88);
+    color: white;
+  }
+  .text2{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: right;  
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 950px;
+    height: 200px;
+    background-color:rgb(6, 6, 88);
+    color: white;
+  }
+footer{
+    background-color: rgb(6, 6, 88);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 120px;
+}
